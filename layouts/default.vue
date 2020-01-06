@@ -31,12 +31,11 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
-  font-family: 'Raleway', sans-serif;
 }
 body {
+  font-family: 'Montserrat', sans-serif;
   position: relative;
   margin: 0;
-  padding-bottom: 6rem;
   min-height: 100vh;
   background-color: $fond-light !important;
 }

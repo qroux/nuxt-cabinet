@@ -18,7 +18,8 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Raleway&display=swap'
+        href:
+          'https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap'
       }
     ]
   },
@@ -46,7 +47,13 @@ export default {
    */
   modules: [
     // Doc: https://bootstrap-vue.js.org
-    'bootstrap-vue/nuxt'
+    'bootstrap-vue/nuxt',
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: 'UA-137009195-1' || ''
+      }
+    ]
   ],
   /*
    ** Build configuration

@@ -1,43 +1,103 @@
 <template>
-  <div class="container-fluid full-container">
-    <div class="head-container fade-in one">
-      <h1>Docteur Gilbert Roux</h1>
-      <hr />
-      <h2>Chirurgien Dentiste</h2>
-      <h2>Spécialisé en Implantologie et Parodontologie</h2>
+  <div class="container-fluid">
+    <div class="banner-container">
+      <div class="head-container fade-in one my-5">
+        <h1>Docteur Gilbert Roux</h1>
+        <hr />
+        <h2>Chirurgien Dentiste</h2>
+        <h2>9 rue Francis Davso, 13001 Marseille</h2>
+      </div>
     </div>
-    <div class="actions-container">
-      <div id="btn-size" class="btn btn-lg btn-info mx-2">Soins</div>
-      <div id="btn-size" class="btn btn-lg btn-info mx-2">Info</div>
+    <div id="logos" class="container">
+      <div class="logo-container py-5">
+        <nuxt-link to="/implantologie" class="card-link px-5 py-4">
+          <div class="logo text-center">
+            <img src="~assets/test.png" alt="" />
+            <hr />
+            <h3>Implantologie</h3>
+          </div>
+        </nuxt-link>
+        <nuxt-link to="/parodontologie" class="card-link px-5 py-4">
+          <div class="logo text-center">
+            <img src="~assets/logo-paro.png" alt="" />
+            <hr />
+            <h3>Parodontologie</h3>
+          </div>
+        </nuxt-link>
+        <nuxt-link to="/prevention" class="card-link px-5 py-4">
+          <div class="logo text-center">
+            <img src="~assets/logo-prevention.png" alt="" />
+            <hr />
+            <h3>Prévention</h3>
+          </div>
+        </nuxt-link>
+      </div>
     </div>
   </div>
 </template>
 
-<script></script>
-
 <style scoped lang="scss">
-.full-container {
+.container-fluid {
+  padding: 0;
+}
+.banner-container {
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url('https://picsum.photos/1920/1080.jpg');
+    url('~assets/banner3-resized.jpg');
   background-size: cover;
-  height: 80vh;
-  margin-bottom: 8.7vh;
+  @media (max-width: 740px) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url('~assets/b2r.jpg') !important;
+    background-size: cover;
+    h1 {
+      font-size: 25px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+  }
+}
+#logos {
+  font-family: 'Montserrat', sans-serif;
+}
+.logo-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  img {
+    height: 110px;
+    width: auto;
+  }
+  @media (max-width: 740px) {
+    flex-direction: column;
+    align-items: center;
+    h3 {
+      font-size: 22px;
+    }
+  }
+}
+.card-link {
+  width: 300px;
+  margin: 0;
+  text-decoration: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 1s cubic-bezier(0.25, 0.8, 0.25, 1);
+  color: rgba(0, 0, 0, 0.8);
+  &:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  @media (max-width: 740px) {
+    margin-top: 20px;
+  }
 }
 .head-container {
   text-align: center;
   color: white;
-  padding: 8vh;
-}
-.actions-container {
-  margin-top: 20px;
-  #btn-size {
-    width: 150px;
-    padding: 8px 0;
-  }
+  padding: 2vh;
 }
 @-webkit-keyframes fadeIn {
   from {
