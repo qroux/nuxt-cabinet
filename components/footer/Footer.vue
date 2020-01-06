@@ -12,7 +12,7 @@
 <style scoped lang="scss">
 .footer {
   font-family: 'Montserrat', sans-serif;
-  background-color: #1f222b;
+  background-color: #262b36;
   border-top: 2px solid white;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 1), 0 1px 2px rgba(0, 0, 0, 1);
   padding: 1rem;

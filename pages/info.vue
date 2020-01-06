@@ -64,7 +64,7 @@ $border-custom: #c9c9c9;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 70vh;
+  min-height: 72vh;
   text-align: center;
   p {
     font-family: 'Montserrat', sans-serif;

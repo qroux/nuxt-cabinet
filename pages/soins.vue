@@ -44,7 +44,7 @@
 .full-container {
   display: flex;
   justify-content: center;
-  min-height: 70vh;
+  min-height: 72vh;
 }
 .card {
   text-decoration: none;
