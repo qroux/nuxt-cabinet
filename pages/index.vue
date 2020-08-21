@@ -52,7 +52,8 @@
   @media (max-width: 740px) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
       url('~assets/b2r.jpg') !important;
-    background-size: cover;
+    // background-size: cover;
+    background-position: center;
     h1 {
       font-size: 25px;
     }
