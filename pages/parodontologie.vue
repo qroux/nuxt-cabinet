@@ -16,10 +16,10 @@
             pourrait ne pas guérir correctement ou le patient pourrait éprouver
             des complications post-opératoires qui compromettent la dent.
           </p>
-          <div class="d-flex justify-content-center my-5 px-4" id="endo1">
+          <div class="d-flex my-5" id="endo1">
             <img src="~assets/endo1-1.png" />
             <img src="~assets/endo1-2.png" />
-            <img src="~assets/endo1-3.png" />
+            <!-- <img src="~assets/endo1-3.png" /> -->
           </div>
 
           <p>
@@ -29,10 +29,10 @@
             couronne prothétique sur la dent. En bref, la reprise d’un
             traitement endodontique est presque identique à la procédure
             initiale, hormis le retrait des structures du premier traitement.
-            <strong
-              >Le taux de réussite pour une reprise d’un traitement endodontique
-              se situe à 75 %.</strong
-            >
+            <strong>
+              Le taux de réussite pour une reprise d’un traitement endodontique
+              se situe à 75 %.
+            </strong>
             <br />
             <br />
             <strong>
@@ -40,29 +40,23 @@
               alternative que l'extraction dentaire pour la plupart des
               patients.
             </strong>
-
             Si une dent a un bon soutien osseux, une surface solide et une
             gencive saine, elle a de bonnes chances d'être préservée.
-            <br />
-            Opter pour la reprise d’un traitement endodontique peut être
+            <br />Opter pour la reprise d’un traitement endodontique peut être
             beaucoup moins coûteux que les solutions alternatives. Les implants
             dentaires, les ponts multiples et la création de dents prothétiques
             esthétiques coûtent beaucoup plus chers que de travailler sur une
             dent naturelle. Ces solutions exigent également un entretien et
             apportent une sensation moins naturelle qu'une « vraie » dent.
           </p>
-          <h2>
-            Pourquoi la reprise d’un traitement de racine est-elle nécessaire ?
-          </h2>
+          <h2>Pourquoi la reprise d’un traitement de racine est-elle nécessaire ?</h2>
           <hr />
           <p>
             Il y a un certain nombre de raisons pour lesquelles un traitement
             endodontique initial échoue de manière inattendue, incluant :
           </p>
           <ul>
-            <li>
-              Une couronne fracturée avec une fuite du matériau d’obturation
-            </li>
+            <li>Une couronne fracturée avec une fuite du matériau d’obturation</li>
             <li>
               Des canaux courbés ou étroits qui n’ont pas été traités au cours
               de la procédure initiale
@@ -71,23 +65,17 @@
               Un retard dans la mise en place des restaurations après la
               procédure initiale
             </li>
-            <li>
-              Une nouvelle carie sur la dent traitée
-            </li>
-            <li>
-              Une nouvelle fracture sur la dent traitée
-            </li>
-            <li>
-              Des structures endodontiques complexes à ramifications multiples
-            </li>
+            <li>Une nouvelle carie sur la dent traitée</li>
+            <li>Une nouvelle fracture sur la dent traitée</li>
+            <li>Des structures endodontiques complexes à ramifications multiples</li>
           </ul>
           <p>
             <strong>
               Bien que la perspective d'une chirurgie endodontique additionnelle
               puisse sembler désagréable, la reprise d’un traitement
               endodontique est assez simple. En général, l'ensemble du
-              traitement peut être complété en 1 à 3 visites.</strong
-            >
+              traitement peut être complété en 1 à 3 visites.
+            </strong>
           </p>
           <h2>En quoi consiste la reprise d’un traitement endodontique ?</h2>
           <hr />
@@ -97,19 +85,18 @@
             dépend en partie de l'inflammation et de la complexité du
             traitement.
           </p>
-          <div class="d-flex justify-content-center my-5 px-4" id="endo1">
+          <div class="d-flex my-5" id="endo1">
             <img src="~assets/endo2-1.png" />
             <img src="~assets/endo2-3.png" />
             <img src="~assets/endo2-5.png" />
-            <img src="~assets/endo2-6.png" />
+            <!-- <img src="~assets/endo2-6.png" /> -->
           </div>
           <p>
             La première étape d'une reprise de traitement endodontique est
             d'accéder à la portion intérieure de la dent. Si une couronne et un
             tenon ont été insérés, ils seront enlevés.
             <br />
-            <br />
-            Ensuite, le matériau d’obturation et les obstructions qui bloquent
+            <br />Ensuite, le matériau d’obturation et les obstructions qui bloquent
             les canaux radiculaires seront enlevés. Ce retrait est effectué en
             utilisant une pièce à main ultrasonique. L'avantage d'utiliser cet
             outil est que tout matériau indésirable est relâché par vibrations.
@@ -121,8 +108,7 @@
             plus complexe, une pause sera faite. La fin de la procédure de
             nettoyage sera alors effectuée lors de la visite suivante.
             <br />
-            <br />
-            Lorsque le dentiste a validé que les canaux sont complètement
+            <br />Lorsque le dentiste a validé que les canaux sont complètement
             nettoyés et libre d’accès il procède au rebouchage. Un ciment
             d’étanchéité et des cônes de gutta-percha sont utilisés pour obturer
             les racines et les sceller hermétiquement. Cette procédure permet la
@@ -162,30 +148,25 @@
               faux canaux) ressortant latéralement à la racine et non à son
               extrémité.
             </li>
-            <li>
-              Une nouvelle fracture sur la dent traitée
-            </li>
+            <li>Une nouvelle fracture sur la dent traitée</li>
 
-            <li>
-              Des structures endodontiques complexes à ramifications multiples
-            </li>
+            <li>Des structures endodontiques complexes à ramifications multiples</li>
           </ul>
-          <h2>Et en pratique comment faire ?</h2>
+          <h2>Et en pratique comment faire ?</h2>
           <hr />
           <p>
             Cette impossibilité à atteindre une herméticité radiologique à 100%
             doit donc être prise en compte. Plusieurs décisions alors sont
             possibles.
             <br />
-            <br />
-            1/ Le patient est adressé à un Endodontiste pour poursuivre avec des
+            <br />1/ Le patient est adressé à un Endodontiste pour poursuivre avec des
             moyens techniques encore plus spécialisés. (Micro chirurgie des
             racines ou des extrémités des racines sous Microscope.)
           </p>
           <!-- 
           <div class="d-flex justify-content-center">
             <img src="~assets/endo2.jpg" />
-          </div> -->
+          </div>-->
           <p>
             2/ Apres avoir été informé et en l’absence de sensibilité une pause
             est possible. Ce temps de réflexion permet d’évaluer calmement le
@@ -204,15 +185,13 @@
             règle est de « tenter de faire mieux » et surtout « essayer de ne
             pas faire plus mal ».
             <br />
-            <br />
-            Il faut savoir choisir l’instrumentation la mieux adaptée, en
+            <br />Il faut savoir choisir l’instrumentation la mieux adaptée, en
             maîtriser parfaitement le fonctionnement et surtout consacrer du
             Temps pour être Disponible et Attentif. Le praticien doit être
             capable d’analyser sa capacité à gérer son acte et d’accepter de
             passer la main si nécessaire.
             <br />
-            <br />
-            Le praticien et le patient doivent collaborer pour se donner le
+            <br />Le praticien et le patient doivent collaborer pour se donner le
             temps et l’attention qui souvent dénoue des situations pourtant
             complexes.
           </p>
@@ -261,38 +240,29 @@ li:before {
 }
 
 #endo1 {
-  border-top: 1px solid rgba(0, 0, 0, 1);
-  border-bottom: 1px solid rgba(0, 0, 0, 1);
-  padding: 5px;
+  justify-content: space-around;
+
+  // background-color: #262b36;
+  // border-top: 1px solid #262b36;
+  // border-bottom: 1px solid #262b36;
+  // padding: 5px;
 }
 
 @media screen and (max-width: 768px) {
   #endo1 {
     flex-direction: column !important;
+    img {
+      margin: 3px 20px;
+      border: 1px solid black;
+    }
   }
 }
 
-// .endo-container {
-//   object-fit: cover;
-// }
+hr {
+  background-color: #262b36;
+  padding-bottom: 3px;
+}
 
-// .endo-img {
-//   height: 184px;
-//   width: 100%;
-//   background-image: url('~assets/endo1-A.png');
-// }
-
-// .endo-photo {
-//   height: 40vh;
-//   display: flex;
-//   justify-content: center;
-//   margin-bottom: 20px;
-// }
-
-// #endo1 {
-//   height: 100%;
-//   max-width: 100%;
-// }
 h2 {
   font-weight: bold;
   margin-top: 50px;
