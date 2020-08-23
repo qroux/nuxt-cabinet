@@ -12,23 +12,23 @@
       <div class="logo-container py-5">
         <nuxt-link to="/implantologie" class="card-link px-5 py-4">
           <div class="logo text-center">
-            <img src="~assets/test.png" alt="" />
+            <img src="~assets/test.png" alt />
             <hr />
             <h3>Implantologie</h3>
           </div>
         </nuxt-link>
         <nuxt-link to="/parodontologie" class="card-link px-5 py-4">
           <div class="logo text-center">
-            <img src="~assets/logo-paro.png" alt="" />
+            <img src="~assets/logo-paro.png" alt />
             <hr />
             <h3>Parodontologie</h3>
           </div>
         </nuxt-link>
-        <nuxt-link to="/prevention" class="card-link px-5 py-4">
+        <nuxt-link to="/endodontie" class="card-link px-5 py-4">
           <div class="logo text-center">
-            <img src="~assets/logo-prevention.png" alt="" />
+            <img src="~assets/logo-prevention.png" alt />
             <hr />
-            <h3>Prévention</h3>
+            <h3>Endodontie</h3>
           </div>
         </nuxt-link>
       </div>
@@ -46,11 +46,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
     url('~assets/banner3-resized.jpg');
   background-size: cover;
   @media (max-width: 740px) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
       url('~assets/b2r.jpg') !important;
     // background-size: cover;
     background-position: center;

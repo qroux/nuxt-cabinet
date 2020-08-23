@@ -2,7 +2,7 @@
   <div class="container">
     <div class="full-container">
       <div>
-        <h2 class="text-center mt-5">Catégories</h2>
+        <h2 class="text-center mt-5">Par Catégorie</h2>
         <hr />
         <b-card-group deck class="py-5">
           <b-card
@@ -12,8 +12,7 @@
             img-src="~/assets/implantologie.jpg"
             img-alt="Image"
             img-top
-          >
-          </b-card>
+          ></b-card>
 
           <b-card
             tag="nuxt-link"
@@ -22,20 +21,24 @@
             img-src="~/assets/paro.jpg"
             img-alt="Image"
             img-top
-          >
-          </b-card>
+          ></b-card>
 
           <b-card
             tag="nuxt-link"
-            to="/prevention"
-            title="Prévention"
+            to="/endodontie"
+            title="Endodontie"
             img-src="~/assets/prevention.jpg"
             img-alt="Image"
             img-top
-          >
-          </b-card>
+          ></b-card>
         </b-card-group>
       </div>
+    </div>
+
+    <div class="text-center">
+      <h2>Par question</h2>
+      <hr />
+      <br />
     </div>
   </div>
 </template>
@@ -44,7 +47,7 @@
 .full-container {
   display: flex;
   justify-content: center;
-  min-height: 72vh;
+  // min-height: 72vh;
 }
 .card {
   text-decoration: none;

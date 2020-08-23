@@ -2,7 +2,7 @@
   <div class="full-container">
     <div class="container-fluid">
       <div class="article-bg">
-        <h1>Parodontologie</h1>
+        <h1>Prévention</h1>
       </div>
     </div>
     <div class="container">

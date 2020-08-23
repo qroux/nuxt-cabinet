@@ -8,192 +8,29 @@
     <div class="container">
       <div class="full-article">
         <div class="article-content py-5">
-          <h2>Traitement des racines</h2>
+          <h2>Description</h2>
           <hr />
           <p>
-            Dans de rares cas, il peut arriver qu’un traitement de racine
-            (=endodontique) ne fonctionne pas comme prévu. La dent traitée
-            pourrait ne pas guérir correctement ou le patient pourrait éprouver
-            des complications post-opératoires qui compromettent la dent.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum
+            fugiat non aut quos numquam nemo sapiente, earum deserunt! Nobis
+            quod repellat fuga inventore ad blanditiis beatae, ipsam eveniet,
+            ullam quo.
           </p>
-          <div class="d-flex my-5" id="endo1">
-            <img src="~assets/endo1-1.png" />
-            <img src="~assets/endo1-2.png" />
-            <!-- <img src="~assets/endo1-3.png" /> -->
-          </div>
-
-          <p>
-            La reprise d’un traitement endodontique consiste à enlever la
-            couronne et les matériaux d'obturation précédents, à nettoyer les
-            canaux radiculaires, et à réapposer un matériau d'obturation et une
-            couronne prothétique sur la dent. En bref, la reprise d’un
-            traitement endodontique est presque identique à la procédure
-            initiale, hormis le retrait des structures du premier traitement.
-            <strong>
-              Le taux de réussite pour une reprise d’un traitement endodontique
-              se situe à 75 %.
-            </strong>
-            <br />
-            <br />
-            <strong>
-              Les traitements endodontiques et les reprises sont une meilleure
-              alternative que l'extraction dentaire pour la plupart des
-              patients.
-            </strong>
-            Si une dent a un bon soutien osseux, une surface solide et une
-            gencive saine, elle a de bonnes chances d'être préservée.
-            <br />Opter pour la reprise d’un traitement endodontique peut être
-            beaucoup moins coûteux que les solutions alternatives. Les implants
-            dentaires, les ponts multiples et la création de dents prothétiques
-            esthétiques coûtent beaucoup plus chers que de travailler sur une
-            dent naturelle. Ces solutions exigent également un entretien et
-            apportent une sensation moins naturelle qu'une « vraie » dent.
-          </p>
-          <h2>Pourquoi la reprise d’un traitement de racine est-elle nécessaire ?</h2>
+          <h2>Indications / Contre-Indications</h2>
           <hr />
           <p>
-            Il y a un certain nombre de raisons pour lesquelles un traitement
-            endodontique initial échoue de manière inattendue, incluant :
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum
+            fugiat non aut quos numquam nemo sapiente, earum deserunt! Nobis
+            quod repellat fuga inventore ad blanditiis beatae, ipsam eveniet,
+            ullam quo.
           </p>
-          <ul>
-            <li>Une couronne fracturée avec une fuite du matériau d’obturation</li>
-            <li>
-              Des canaux courbés ou étroits qui n’ont pas été traités au cours
-              de la procédure initiale
-            </li>
-            <li>
-              Un retard dans la mise en place des restaurations après la
-              procédure initiale
-            </li>
-            <li>Une nouvelle carie sur la dent traitée</li>
-            <li>Une nouvelle fracture sur la dent traitée</li>
-            <li>Des structures endodontiques complexes à ramifications multiples</li>
-          </ul>
-          <p>
-            <strong>
-              Bien que la perspective d'une chirurgie endodontique additionnelle
-              puisse sembler désagréable, la reprise d’un traitement
-              endodontique est assez simple. En général, l'ensemble du
-              traitement peut être complété en 1 à 3 visites.
-            </strong>
-          </p>
-          <h2>En quoi consiste la reprise d’un traitement endodontique ?</h2>
+          <h2>Plan De Traitement</h2>
           <hr />
           <p>
-            Le jour de la procédure de la reprise d’un traitement endodontique,
-            une anesthésie locale sera réalisé. La longueur du rendez-vous
-            dépend en partie de l'inflammation et de la complexité du
-            traitement.
-          </p>
-          <div class="d-flex my-5" id="endo1">
-            <img src="~assets/endo2-1.png" />
-            <img src="~assets/endo2-3.png" />
-            <img src="~assets/endo2-5.png" />
-            <!-- <img src="~assets/endo2-6.png" /> -->
-          </div>
-          <p>
-            La première étape d'une reprise de traitement endodontique est
-            d'accéder à la portion intérieure de la dent. Si une couronne et un
-            tenon ont été insérés, ils seront enlevés.
-            <br />
-            <br />Ensuite, le matériau d’obturation et les obstructions qui bloquent
-            les canaux radiculaires seront enlevés. Ce retrait est effectué en
-            utilisant une pièce à main ultrasonique. L'avantage d'utiliser cet
-            outil est que tout matériau indésirable est relâché par vibrations.
-            De minuscules instruments seront ensuite utilisés pour nettoyer et
-            remodeler les canaux radiculaires. Des radiographies peuvent être
-            prises pour s’assurer de la progression du débouchage et à la fin
-            pour vérifier que les racines sont bien propres et libres pour une
-            nouvelle obturation étanche. Si cette partie du traitement s'avère
-            plus complexe, une pause sera faite. La fin de la procédure de
-            nettoyage sera alors effectuée lors de la visite suivante.
-            <br />
-            <br />Lorsque le dentiste a validé que les canaux sont complètement
-            nettoyés et libre d’accès il procède au rebouchage. Un ciment
-            d’étanchéité et des cônes de gutta-percha sont utilisés pour obturer
-            les racines et les sceller hermétiquement. Cette procédure permet la
-            guérison de la dent en la protégeant des bactéries et donc des
-            infections. Enfin, une obturation provisoire est placée dans la
-            dent. Dans la séance suivante la dent reçoit une reconstitution
-            interne pour renforcer sa partie centrale que la carie a détruite.
-            Cette dent traitée au niveau des racines et maintenant renforcée en
-            son centre doit être néanmoins recouverte par une couronne pour la
-            protéger totalement et lui redonner son esthétique.
-          </p>
-          <h2>Les limites du retraitement des racines</h2>
-          <hr />
-          <p>
-            En dépit des efforts, du temps, et des précautions opératoires
-            certaines dents peuvent ne pas atteindre le degré de sécurité long
-            terme recherché. Les Raisons sont liées à certains obstacles:
-          </p>
-          <ul>
-            <li>
-              La complexité radiculaire initiale. Courbure très marquées,
-              ramification…
-            </li>
-            <li>
-              Le retraitement peut trouver l’intérieur des racines des parties
-              métalliques qui ne peuvent être retirées
-            </li>
-            <li>
-              Le retraitement peut trouver l’intérieur des dents très fragilisé
-              tenant compte de leur finesse ou leur déminéralisation par la
-              carie.
-            </li>
-            <li>
-              Le retraitement rencontre également un intérieur des canaux des
-              fois, très modifiés dans leur courbure naturelle d’origine. On
-              peut rencontrer des butées, ou des trajets rectilignes (appelés
-              faux canaux) ressortant latéralement à la racine et non à son
-              extrémité.
-            </li>
-            <li>Une nouvelle fracture sur la dent traitée</li>
-
-            <li>Des structures endodontiques complexes à ramifications multiples</li>
-          </ul>
-          <h2>Et en pratique comment faire ?</h2>
-          <hr />
-          <p>
-            Cette impossibilité à atteindre une herméticité radiologique à 100%
-            doit donc être prise en compte. Plusieurs décisions alors sont
-            possibles.
-            <br />
-            <br />1/ Le patient est adressé à un Endodontiste pour poursuivre avec des
-            moyens techniques encore plus spécialisés. (Micro chirurgie des
-            racines ou des extrémités des racines sous Microscope.)
-          </p>
-          <!-- 
-          <div class="d-flex justify-content-center">
-            <img src="~assets/endo2.jpg" />
-          </div>-->
-          <p>
-            2/ Apres avoir été informé et en l’absence de sensibilité une pause
-            est possible. Ce temps de réflexion permet d’évaluer calmement le
-            BENEFICE/RISQUE. En effet certaines dents multi traitées ne peuvent
-            supporter un démontage de plus sans se fracturer, rendant alors
-            l’extraction inévitable.
-          </p>
-          <h2>Conclusion</h2>
-          <hr />
-          <p>
-            Les retraitements endodontiques occupent une place importante dans
-            l’endodontie quotidienne du praticien dentiste. C’est un acte
-            opératoire aux multiples difficultés. Son objectif est d’atteindre
-            la zone canalaire apicale afin d’apporter irrigation et désinfection
-            et mise en forme avant ré-obturation tridimensionnelle étanche. La
-            règle est de « tenter de faire mieux » et surtout « essayer de ne
-            pas faire plus mal ».
-            <br />
-            <br />Il faut savoir choisir l’instrumentation la mieux adaptée, en
-            maîtriser parfaitement le fonctionnement et surtout consacrer du
-            Temps pour être Disponible et Attentif. Le praticien doit être
-            capable d’analyser sa capacité à gérer son acte et d’accepter de
-            passer la main si nécessaire.
-            <br />
-            <br />Le praticien et le patient doivent collaborer pour se donner le
-            temps et l’attention qui souvent dénoue des situations pourtant
-            complexes.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum
+            fugiat non aut quos numquam nemo sapiente, earum deserunt! Nobis
+            quod repellat fuga inventore ad blanditiis beatae, ipsam eveniet,
+            ullam quo.
           </p>
         </div>
       </div>
@@ -214,57 +51,15 @@
   justify-content: center;
   height: 10vh;
   color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('~assets/paro.jpg') !important;
   text-align: center;
   background-image: url('~assets/paro.jpg');
   background-size: cover;
+  background-position: center;
 }
 .full-article {
   display: flex;
   flex-direction: column;
-}
-
-ul {
-  list-style: none;
-  margin-left: 0;
-  padding-left: 0;
-}
-
-li {
-  padding-left: 1em;
-  text-indent: -1em;
-}
-
-li:before {
-  content: '-';
-  padding-right: 5px;
-}
-
-#endo1 {
-  justify-content: space-around;
-
-  // background-color: #262b36;
-  // border-top: 1px solid #262b36;
-  // border-bottom: 1px solid #262b36;
-  // padding: 5px;
-}
-
-@media screen and (max-width: 768px) {
-  #endo1 {
-    flex-direction: column !important;
-    img {
-      margin: 3px 20px;
-      border: 1px solid black;
-    }
-  }
-}
-
-hr {
-  background-color: #262b36;
-  padding-bottom: 3px;
-}
-
-h2 {
-  font-weight: bold;
-  margin-top: 50px;
 }
 </style>

@@ -52,8 +52,9 @@
   height: 10vh;
   color: white;
   text-align: center;
-  background-image: url('~assets/test-i.jpg');
+  background-image: url('~assets/paro.jpg');
   background-size: cover;
+  background-position: center;
 }
 .full-article {
   display: flex;

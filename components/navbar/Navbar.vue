@@ -27,7 +27,7 @@
   width: auto;
 }
 .navbar {
-  border-bottom: 2px solid white;
+  border-bottom: 1px solid white;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   background-color: #262b36;
   .navbar-brand {

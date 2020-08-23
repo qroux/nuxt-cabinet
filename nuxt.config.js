@@ -21,7 +21,7 @@ export default {
       {
         rel: 'stylesheet',
         href:
-          'https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap'
+          'https://fonts.googleapis.com/css?family=Montserrat:wght@600|Raleway&display=swap'
       }
     ]
   },
@@ -32,7 +32,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: ['assets/main.css'],
   /*
    ** Plugins to load before mounting the App
    */
