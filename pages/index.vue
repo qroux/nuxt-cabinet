@@ -24,11 +24,11 @@
             <h3>Parodontologie</h3>
           </div>
         </nuxt-link>
-        <nuxt-link to="/endodontie" class="card-link px-5 py-4">
+        <nuxt-link to="/soins" class="card-link px-5 py-4">
           <div class="logo text-center">
-            <img src="~assets/logo-prevention.png" alt />
+            <img src="~assets/question-logo.png" alt />
             <hr />
-            <h3>Endodontie</h3>
+            <h3>Vos questions</h3>
           </div>
         </nuxt-link>
       </div>
