@@ -9,6 +9,11 @@
       </div>
     </div>
     <div id="logos" class="container">
+      <!-- <div class="presentation-container">
+        <h5>Bienvenue au cabinet du docteur Gilbert Roux</h5>
+        <br />
+        <p>Le cabinet vous accueille</p>
+      </div>-->
       <div class="logo-container py-5">
         <nuxt-link to="/implantologie" class="card-link px-5 py-4">
           <div class="logo text-center">
@@ -65,6 +70,10 @@
 #logos {
   font-family: 'Montserrat', sans-serif;
 }
+
+.presentation-container {
+}
+
 .logo-container {
   display: flex;
   justify-content: space-around;

@@ -8,14 +8,18 @@
     <div class="container">
       <div class="full-article">
         <div class="article-content py-5">
-          <div class="d-flex justify-content-start align-items-center">
-            <!-- <div class="pr-5">+</div> -->
-            <h2 v-b-toggle="'collapse-1'">Traitement des racines</h2>
+          <div class="d-flex justify-content-center align-items-center">
+            <h3
+              class="title"
+              v-b-toggle="'collapse-1'"
+            >Le traitement des racines, pourquoi et comment ?</h3>
           </div>
 
           <b-collapse visible id="collapse-1" class>
             <hr />
             <br />
+            <br />
+
             <p>
               Dans de rares cas, il peut arriver qu’un traitement de racine
               (=endodontique) ne fonctionne pas comme prévu. La dent traitée
@@ -54,10 +58,10 @@
           <br />
 
           <div class="d-flex justify-content-start align-items-center">
-            <!-- <div class="pr-5">+</div> -->
-            <h2
+            <h3
+              class="dotted"
               v-b-toggle="'collapse-2'"
-            >Pourquoi la reprise d’un traitement de racine est-elle nécessaire ?</h2>
+            >Pourquoi la reprise d’un traitement de racine est-elle nécessaire ?</h3>
           </div>
 
           <b-collapse id="collapse-2">
@@ -94,8 +98,10 @@
           <br />
 
           <div class="d-flex justify-content-start align-items-center">
-            <!-- <div class="pr-5">+</div> -->
-            <h2 v-b-toggle="'collapse-3'">En quoi consiste la reprise d’un traitement endodontique ?</h2>
+            <h3
+              class="dotted"
+              v-b-toggle="'collapse-3'"
+            >En quoi consiste la reprise d’un traitement endodontique ?</h3>
           </div>
 
           <b-collapse id="collapse-3">
@@ -141,8 +147,7 @@
           <br />
 
           <div class="d-flex justify-content-start align-items-center">
-            <!-- <div class="pr-5">+</div> -->
-            <h2 v-b-toggle="'collapse-4'">Les limites du retraitement des racines</h2>
+            <h3 class="dotted" v-b-toggle="'collapse-4'">Les limites du retraitement des racines</h3>
           </div>
 
           <b-collapse id="collapse-4">
@@ -183,8 +188,7 @@
           <br />
 
           <div class="d-flex justify-content-start align-items-center">
-            <!-- <div class="pr-5">+</div> -->
-            <h2 v-b-toggle="'collapse-5'">Et en pratique comment faire ?</h2>
+            <h3 class="dotted" v-b-toggle="'collapse-5'">Et en pratique comment faire ?</h3>
           </div>
 
           <b-collapse id="collapse-5">
@@ -211,8 +215,7 @@
           <br />
 
           <div class="d-flex justify-content-start align-items-center">
-            <!-- <div class="pr-5">+</div> -->
-            <h2 v-b-toggle="'collapse-6'">Conclusion</h2>
+            <h3 class="dotted" v-b-toggle="'collapse-6'">Conclusion</h3>
           </div>
 
           <b-collapse id="collapse-6">
@@ -271,44 +274,21 @@ $animate: all 0.2s ease-in-out;
   flex-direction: column;
 }
 
-// ul {
-//   list-style: none;
-//   margin-left: 0;
-//   padding-left: 0;
-// }
-
-// li {
-//   padding-left: 1em;
-//   text-indent: -1em;
-// }
-
-// li:before {
-//   content: '-';
-//   padding-right: 5px;
-// }
-
 #endo1 {
   justify-content: space-around;
-
-  // background-color: #262b36;
-  // border-top: 1px solid #262b36;
-  // border-bottom: 1px solid #262b36;
-  // padding: 5px;
 }
 
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 30px;
   }
-  h2 {
+  h3 {
     font-size: 25px;
-    &:before {
-      content: ' + ';
-    }
+    // &:before {
+    //   content: '\25b6	\00a0	\00a0	\00a0 \00a0';
+    // }
   }
-  // #collapse-1 {
-  //   margin-left: 0 !important;
-  // }
+
   #endo1 {
     flex-direction: column !important;
     img {
@@ -321,18 +301,21 @@ $animate: all 0.2s ease-in-out;
 hr {
   padding: 0;
   margin: 0;
-  // display: none;
-  // background-color: #262b36;
-  // padding-bottom: 1px;
-  // margin-bottom: 50px;
 }
 
-h2 {
-  // font-weight: bold;
+h3 {
   color: rgba(0, 0, 0, 0.5);
   &:hover {
     cursor: pointer;
     color: rgba(0, 0, 0, 1);
   }
+}
+
+.dotted:before {
+  content: '\00b7	\00a0	\00a0	\00a0 \00a0';
+}
+.title {
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: bold;
 }
 </style>
