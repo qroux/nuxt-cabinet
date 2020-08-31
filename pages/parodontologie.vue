@@ -8,30 +8,7 @@
     <div class="container">
       <div class="full-article">
         <div class="article-content py-5">
-          <h2>Description</h2>
-          <hr />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum
-            fugiat non aut quos numquam nemo sapiente, earum deserunt! Nobis
-            quod repellat fuga inventore ad blanditiis beatae, ipsam eveniet,
-            ullam quo.
-          </p>
-          <h2>Indications / Contre-Indications</h2>
-          <hr />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum
-            fugiat non aut quos numquam nemo sapiente, earum deserunt! Nobis
-            quod repellat fuga inventore ad blanditiis beatae, ipsam eveniet,
-            ullam quo.
-          </p>
-          <h2>Plan De Traitement</h2>
-          <hr />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum
-            fugiat non aut quos numquam nemo sapiente, earum deserunt! Nobis
-            quod repellat fuga inventore ad blanditiis beatae, ipsam eveniet,
-            ullam quo.
-          </p>
+          <section></section>
         </div>
       </div>
     </div>

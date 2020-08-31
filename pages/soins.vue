@@ -7,46 +7,77 @@
       content-class="mt-5"
       fill
     >
-      <b-tab>
+      <b-tab active>
         <template v-slot:title>
           <h3>Catégories</h3>
         </template>
-        <b-card-group deck class="pb-5">
-          <b-card
-            tag="nuxt-link"
-            to="/implantologie"
-            title="Implantologie"
-            img-src="~/assets/implantologie.jpg"
-            img-alt="Image"
-            img-top
-          ></b-card>
-
+        <b-card-group columns class="pb-5">
           <b-card
             tag="nuxt-link"
             to="/parodontologie"
-            title="Parodontologie"
-            img-src="~/assets/paro.jpg"
-            img-alt="Image"
+            img-src="~assets/paro-card.jpg"
+            img-alt="Card image"
             img-top
-          ></b-card>
+            header="Parodontologie"
+          >
+            <ul>
+              <li>Santé des gencives</li>
+              <li>Méthode Charon</li>
+            </ul>
+          </b-card>
+
+          <b-card
+            tag="nuxt-link"
+            to="/implantologie"
+            img-src="~assets/facettes-card.jpg"
+            img-alt="Card image"
+            img-top
+            header="Esthétique"
+          >
+            <b-card-text>
+              <ul>
+                <li>Implants</li>
+                <li>Facettes</li>
+                <li>Blanchiment des dents</li>
+              </ul>
+            </b-card-text>
+          </b-card>
+
+          <b-card
+            tag="nuxt-link"
+            to="/endodontie"
+            img-src="~assets/endo-card.png"
+            img-alt="Card image"
+            img-top
+            header="Endodontie"
+          >
+            <b-card-text>
+              <ul>
+                <li>Traitement des racines</li>
+              </ul>
+            </b-card-text>
+          </b-card>
 
           <b-card
             tag="nuxt-link"
             to="/endodontie"
             title="Endodontie"
-            img-src="~/assets/prevention.jpg"
-            img-alt="Image"
+            sub-title="Traitement des racines"
+            img-src="~assets/endo-card.png"
+            img-alt="Card image"
             img-top
+            header="Autre"
+            header-text-variant="white"
           ></b-card>
         </b-card-group>
       </b-tab>
-      <b-tab class="mb-5" active>
+      <b-tab class="mb-5">
         <template v-slot:title>
           <h3>Questions</h3>
         </template>
         <div v-for="question in questions" class="py-2">
           <nuxt-link :to="question.link" class="questions">
-            <h5>{{ question.title}}</h5>
+            <h5>{{ question.title }}</h5>
           </nuxt-link>
         </div>
       </b-tab>
@@ -147,5 +178,37 @@ h3 {
   h5:hover {
     font-weight: bold;
   }
+}
+
+h6 {
+  padding-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 15px;
+  padding: 0px 15px;
+
+  li:before {
+    content: '\00b7	\00a0	\00a0	';
+  }
+}
+
+img {
+  max-height: 150px;
+}
+
+.card {
+  min-height: 350px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-header {
+  // background-color: #262b36;
+  text-align: center;
+  font-weight: bold;
 }
 </style>

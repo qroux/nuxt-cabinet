@@ -17,87 +17,128 @@
             <br />
             <br />
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, similique. Velit voluptates fuga esse saepe officiis tempora molestias quaerat voluptate eos id! Debitis modi inventore tempore voluptatem nesciunt eaque maiores!</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint ad distinctio dolorum provident voluptate ex velit accusantium ratione quasi libero sapiente eaque temporibus quos molestias totam odit nostrum, vel sequi.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+              similique. Velit voluptates fuga esse saepe officiis tempora
+              molestias quaerat voluptate eos id! Debitis modi inventore tempore
+              voluptatem nesciunt eaque maiores!
+            </p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint ad
+              distinctio dolorum provident voluptate ex velit accusantium
+              ratione quasi libero sapiente eaque temporibus quos molestias
+              totam odit nostrum, vel sequi.
+            </p>
             <br />
-            <b-container>
+            <!-- <b-container>
               <b-row class="justify-content-between">
-                <b-col cols="12" sm="6" id="implant-A"></b-col>
+                <b-col id="implant-A" cols="12" sm="6"></b-col>
 
-                <b-col cols="12" sm="6" id="implant-B"></b-col>
+                <b-col id="implant-B" cols="12" sm="6"></b-col>
               </b-row>
-            </b-container>
+            </b-container>-->
+
+            <div class="my-carousel">
+              <b-carousel
+                id="carousel-fade"
+                style="text-shadow: 0px 0px 2px #000"
+                fade
+                indicators
+                img-width="1024"
+                img-height="480"
+              >
+                <b-carousel-slide caption="First slide" img-src="~assets/implants-radio-Br.jpg"></b-carousel-slide>
+                <b-carousel-slide caption="Second Slide" img-src="~assets/implants-radio-Br.jpg"></b-carousel-slide>
+                <b-carousel-slide caption="Third Slide" img-src="~assets/implants-radio-Br.jpg"></b-carousel-slide>
+              </b-carousel>
+            </div>
             <br />
           </div>
-          <div class="my-5 py-1" />
+          <!-- <div class="my-5 py-1" /> -->
 
           <div class="questions">
-            <div class="separator">
+            <!-- <div class="separator">
               <h2 class="text-center">Questions</h2>
-            </div>
+            </div>-->
             <hr class="mb-5" />
             <div class="d-flex justify-content-start align-items-center">
-              <h3 class="dotted" v-b-toggle="'collapse-2'">Dans quels cas recourir aux implants ?</h3>
+              <h3 v-b-toggle="'collapse-2'" class="dotted">Dans quels cas recourir aux implants ?</h3>
             </div>
 
             <b-collapse id="collapse-2">
               <hr />
               <br />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora inventore cupiditate totam deleniti soluta minus, fuga quasi dolore animi reprehenderit, reiciendis delectus amet, praesentium blanditiis aut voluptatibus nam quaerat voluptatem!</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Tempora inventore cupiditate totam deleniti soluta minus, fuga
+                quasi dolore animi reprehenderit, reiciendis delectus amet,
+                praesentium blanditiis aut voluptatibus nam quaerat voluptatem!
+              </p>
               <br />
             </b-collapse>
             <br />
 
             <div class="d-flex justify-content-start align-items-center">
               <h3
-                class="dotted"
                 v-b-toggle="'collapse-3'"
+                class="dotted"
               >Quelles sont les alternatives aux implants ?</h3>
             </div>
 
             <b-collapse id="collapse-3">
               <hr />
               <br />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, in voluptate! Quasi et cum minima deserunt recusandae, laboriosam provident voluptatibus rem, doloremque ab similique ex amet natus? Necessitatibus, assumenda aut.</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, in
+                voluptate! Quasi et cum minima deserunt recusandae, laboriosam
+                provident voluptatibus rem, doloremque ab similique ex amet
+                natus? Necessitatibus, assumenda aut.
+              </p>
               <br />
             </b-collapse>
             <br />
 
             <div class="d-flex justify-content-start align-items-center">
-              <h3 class="dotted" v-b-toggle="'collapse-4'">Et en pratique, comment faire ?</h3>
+              <h3 v-b-toggle="'collapse-4'" class="dotted">Et en pratique, comment faire ?</h3>
             </div>
 
             <b-collapse id="collapse-4">
               <hr />
               <br />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum sit iusto laboriosam vero, nihil rem hic quisquam nulla fugit accusamus, enim saepe ipsa consequuntur eligendi itaque nobis nesciunt ratione. Maiores!</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+                sit iusto laboriosam vero, nihil rem hic quisquam nulla fugit
+                accusamus, enim saepe ipsa consequuntur eligendi itaque nobis
+                nesciunt ratione. Maiores!
+              </p>
 
               <br />
             </b-collapse>
             <br />
 
             <div class="d-flex justify-content-start align-items-center">
-              <h3 class="dotted" v-b-toggle="'collapse-5'">Conclusion</h3>
+              <h3 v-b-toggle="'collapse-5'" class="dotted">Conclusion</h3>
             </div>
 
             <b-collapse id="collapse-5">
               <hr />
               <br />
               <p>
-                Cette impossibilité à atteindre une herméticité radiologique à 100%
-                doit donc être prise en compte. Plusieurs décisions alors sont
-                possibles.
+                Cette impossibilité à atteindre une herméticité radiologique à
+                100% doit donc être prise en compte. Plusieurs décisions alors
+                sont possibles.
                 <br />
-                <br />1/ Le patient est adressé à un Endodontiste pour poursuivre avec des
-                moyens techniques encore plus spécialisés. (Micro chirurgie des
-                racines ou des extrémités des racines sous Microscope.)
+                <br />1/ Le patient est adressé à un Endodontiste pour
+                poursuivre avec des moyens techniques encore plus spécialisés.
+                (Micro chirurgie des racines ou des extrémités des racines sous
+                Microscope.)
               </p>
               <p>
-                2/ Apres avoir été informé et en l’absence de sensibilité une pause
-                est possible. Ce temps de réflexion permet d’évaluer calmement le
-                BENEFICE/RISQUE. En effet certaines dents multi traitées ne peuvent
-                supporter un démontage de plus sans se fracturer, rendant alors
-                l’extraction inévitable.
+                2/ Apres avoir été informé et en l’absence de sensibilité une
+                pause est possible. Ce temps de réflexion permet d’évaluer
+                calmement le BENEFICE/RISQUE. En effet certaines dents multi
+                traitées ne peuvent supporter un démontage de plus sans se
+                fracturer, rendant alors l’extraction inévitable.
               </p>
               <br />
             </b-collapse>
@@ -213,5 +254,20 @@ h3 {
   background-color: #262b36;
   color: white;
   padding: 5px 0;
+}
+
+// .my-carousel {
+//   height: 200px;
+// }
+
+.carousel .item {
+  height: 300px;
+}
+
+.item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
 }
 </style>
