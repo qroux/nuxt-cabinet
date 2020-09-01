@@ -11,11 +11,11 @@
         <template v-slot:title>
           <h3>Catégories</h3>
         </template>
-        <b-card-group columns class="pb-5">
+        <b-card-group deck class="pb-5">
           <b-card
             tag="nuxt-link"
             to="/parodontologie"
-            img-src="~assets/paro-card.jpg"
+            img-src="~assets/ss-paro.webp"
             img-alt="Card image"
             img-top
             header="Parodontologie"
@@ -24,6 +24,21 @@
               <li>Santé des gencives</li>
               <li>Méthode Charon</li>
             </ul>
+          </b-card>
+
+          <b-card
+            tag="nuxt-link"
+            to="/endodontie"
+            img-src="~assets/ss-endo.webp"
+            img-alt="Card image"
+            img-top
+            header="Endodontie"
+          >
+            <b-card-text>
+              <ul>
+                <li>Traitement des racines</li>
+              </ul>
+            </b-card-text>
           </b-card>
 
           <b-card
@@ -42,33 +57,6 @@
               </ul>
             </b-card-text>
           </b-card>
-
-          <b-card
-            tag="nuxt-link"
-            to="/endodontie"
-            img-src="~assets/endo-card.png"
-            img-alt="Card image"
-            img-top
-            header="Endodontie"
-          >
-            <b-card-text>
-              <ul>
-                <li>Traitement des racines</li>
-              </ul>
-            </b-card-text>
-          </b-card>
-
-          <b-card
-            tag="nuxt-link"
-            to="/endodontie"
-            title="Endodontie"
-            sub-title="Traitement des racines"
-            img-src="~assets/endo-card.png"
-            img-alt="Card image"
-            img-top
-            header="Autre"
-            header-text-variant="white"
-          ></b-card>
         </b-card-group>
       </b-tab>
       <b-tab class="mb-5">
@@ -195,12 +183,12 @@ ul {
 }
 
 img {
-  max-height: 150px;
+  max-height: 200px;
 }
 
-.card {
-  min-height: 350px;
-}
+// .card {
+//   min-height: 400px;
+// }
 
 .card-title {
   font-weight: bold;
