@@ -9,7 +9,7 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="ml-3">
-          <nuxt-link id="custom-links" to="soins">Soins</nuxt-link>
+          <nuxt-link id="custom-links" to="soins">Les Soins</nuxt-link>
           <nuxt-link id="custom-links" to="info">Infos Pratiques</nuxt-link>
         </b-navbar-nav>
 

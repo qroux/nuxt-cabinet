@@ -2,60 +2,63 @@
   <div class="full-container">
     <div class="container-fluid">
       <div class="article-bg">
-        <h1>Endodontie</h1>
+        <h2>Endodontie</h2>
       </div>
     </div>
+    <b-breadcrumb :items="items"></b-breadcrumb>
     <div class="container">
       <div class="full-article">
-        <div class="article-content py-5">
-          <div class="d-flex justify-content-center align-items-center">
-            <h3 v-b-toggle="'collapse-1'" class="title">
+        <div class="article-content">
+          <div class="header pt-3 pb-3">
+            <h1 class="title">
               Le traitement des racines, pourquoi et comment ?
-            </h3>
+            </h1>
+            <hr />
           </div>
 
-          <b-collapse id="collapse-1" visible class>
-            <hr />
-            <br />
-            <br />
-
-            <p>
-              Dans de rares cas, il peut arriver qu’un traitement de racine
-              (=endodontique) ne fonctionne pas comme prévu. La dent traitée
-              pourrait ne pas guérir correctement ou le patient pourrait
-              éprouver des complications post-opératoires qui compromettent la
-              dent.
-            </p>
-            <p>
-              La reprise d’un traitement endodontique consiste à enlever la
-              couronne et les matériaux d'obturation précédents, à nettoyer les
-              canaux radiculaires, et à réapposer un matériau d'obturation et
-              une couronne prothétique sur la dent. En bref, la reprise d’un
-              traitement endodontique est presque identique à la procédure
-              initiale, hormis le retrait des structures du premier traitement.
-              <strong>
-                Le taux de réussite pour une reprise d’un traitement
-                endodontique se situe à 75 %.
-              </strong>
-              <br />
-              <br />
-              <strong>
-                Les traitements endodontiques et les reprises sont une meilleure
-                alternative que l'extraction dentaire pour la plupart des
-                patients.
-              </strong>
-              Si une dent a un bon soutien osseux, une surface solide et une
-              gencive saine, elle a de bonnes chances d'être préservée.
-              <br />Opter pour la reprise d’un traitement endodontique peut être
-              beaucoup moins coûteux que les solutions alternatives. Les
-              implants dentaires, les ponts multiples et la création de dents
-              prothétiques esthétiques coûtent beaucoup plus chers que de
-              travailler sur une dent naturelle. Ces solutions exigent également
-              un entretien et apportent une sensation moins naturelle qu'une «
-              vraie » dent.
-            </p>
-            <br />
-          </b-collapse>
+          <b-container class="my-4">
+            <b-row>
+              <!-- <b-col cols="12" md="4" class="photo"></b-col> -->
+              <b-col cols="12">
+                <p>
+                  Dans de rares cas, il peut arriver qu’un traitement de racine
+                  (=endodontique) ne fonctionne pas comme prévu. La dent traitée
+                  pourrait ne pas guérir correctement ou le patient pourrait
+                  éprouver des complications post-opératoires qui compromettent
+                  la dent.
+                </p>
+                <p>
+                  La reprise d’un traitement endodontique consiste à enlever la
+                  couronne et les matériaux d'obturation précédents, à nettoyer
+                  les canaux radiculaires, et à réapposer un matériau
+                  d'obturation et une couronne prothétique sur la dent. En bref,
+                  la reprise d’un traitement endodontique est presque identique
+                  à la procédure initiale, hormis le retrait des structures du
+                  premier traitement.
+                  <strong>
+                    Le taux de réussite pour une reprise d’un traitement
+                    endodontique se situe à 75 %.
+                  </strong>
+                  <br />
+                  <br />
+                  <strong>
+                    Les traitements endodontiques et les reprises sont une
+                    meilleure alternative que l'extraction dentaire pour la
+                    plupart des patients.
+                  </strong>
+                  Si une dent a un bon soutien osseux, une surface solide et une
+                  gencive saine, elle a de bonnes chances d'être préservée.
+                  <br />Opter pour la reprise d’un traitement endodontique peut
+                  être beaucoup moins coûteux que les solutions alternatives.
+                  Les implants dentaires, les ponts multiples et la création de
+                  dents prothétiques esthétiques coûtent beaucoup plus chers que
+                  de travailler sur une dent naturelle. Ces solutions exigent
+                  également un entretien et apportent une sensation moins
+                  naturelle qu'une « vraie » dent.
+                </p>
+              </b-col>
+            </b-row>
+          </b-container>
           <br />
 
           <div class="d-flex justify-content-start align-items-center">
@@ -211,17 +214,17 @@
               100% doit donc être prise en compte. Plusieurs décisions alors
               sont possibles.
               <br />
-              <br />1/ Le patient est adressé à un Endodontiste pour poursuivre
+              <br />Le patient est adressé à un Endodontiste pour poursuivre
               avec des moyens techniques encore plus spécialisés. (Micro
               chirurgie des racines ou des extrémités des racines sous
               Microscope.)
             </p>
             <p>
-              2/ Apres avoir été informé et en l’absence de sensibilité une
-              pause est possible. Ce temps de réflexion permet d’évaluer
-              calmement le BENEFICE/RISQUE. En effet certaines dents multi
-              traitées ne peuvent supporter un démontage de plus sans se
-              fracturer, rendant alors l’extraction inévitable.
+              Apres avoir été informé et en l’absence de sensibilité une pause
+              est possible. Ce temps de réflexion permet d’évaluer calmement le
+              BENEFICE/RISQUE. En effet certaines dents multi traitées ne
+              peuvent supporter un démontage de plus sans se fracturer, rendant
+              alors l’extraction inévitable.
             </p>
             <br />
           </b-collapse>
@@ -256,11 +259,96 @@
 
             <br />
           </b-collapse>
+          <br />
+          <br />
+          <div id="ligthbox" class="mt-3 mb-5">
+            <h3 class="font-weight-bold">Cas cliniques</h3>
+            <hr class="mb-4" />
+
+            <div class="">
+              <div @click="toggler = !toggler">
+                <b-container
+                  fluid
+                  class="thumbnails-container justify-content-between"
+                >
+                  <b-row>
+                    <b-col cols="12" md="3">
+                      <b-img
+                        thumbnail
+                        fluid
+                        src="/images/endo/endo2-2.png"
+                        alt="Image 1"
+                        class="mx-auto d-block"
+                      ></b-img>
+                    </b-col>
+                    <b-col cols="12" md="3">
+                      <b-img
+                        thumbnail
+                        fluid
+                        src="/images/endo/endo2-4.png"
+                        alt="Image 1"
+                        class="mx-auto d-block"
+                      ></b-img>
+                    </b-col>
+
+                    <b-col cols="12" md="3">
+                      <b-img
+                        thumbnail
+                        fluid
+                        src="/images/endo/endo2-6.png"
+                        alt="Image 1"
+                        class="mx-auto d-block"
+                      ></b-img>
+                    </b-col>
+                  </b-row>
+                </b-container>
+              </div>
+            </div>
+
+            <FsLightbox
+              :toggler="toggler"
+              :sources="[
+                '/images/endo/endo1-2.png',
+                '/images/endo/endo2-1.png',
+                '/images/endo/endo2-2.png',
+                '/images/endo/endo2-3.png',
+                '/images/endo/endo2-4.png',
+                '/images/endo/endo2-5.png',
+                '/images/endo/endo2-6.png'
+              ]"
+            />
+          </div>
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+import FsLightbox from 'fslightbox-vue'
+export default {
+  components: { FsLightbox },
+  data() {
+    return {
+      toggler: false,
+      items: [
+        {
+          text: 'Accueil',
+          to: { name: 'index' }
+        },
+        {
+          text: 'Soins',
+          to: { name: 'soins' }
+        },
+        {
+          text: 'Endodontie',
+          active: true
+        }
+      ]
+    }
+  }
+}
+</script>
 
 <style scoped lang="scss">
 $animate: all 0.2s ease-in-out;
@@ -316,19 +404,34 @@ hr {
   margin: 0;
 }
 
-h3 {
+.dotted {
+  &:before {
+    content: '\00b7	\00a0	\00a0';
+  }
+
   color: rgba(0, 0, 0, 0.5);
   &:hover {
     cursor: pointer;
     color: rgba(0, 0, 0, 1);
   }
 }
-
-.dotted:before {
-  content: '\00b7	\00a0	\00a0	\00a0 \00a0';
-}
 .title {
   color: rgba(0, 0, 0, 0.7);
   font-weight: bold;
+}
+
+.photo {
+  // height: 50%;
+  background-image: url('~assets/ss-endo3.webp');
+}
+
+.thumbnails-container {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.breadcrumb {
+  background-color: #f2f2f2;
 }
 </style>

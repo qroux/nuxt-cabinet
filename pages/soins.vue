@@ -21,7 +21,6 @@
             header="Parodontologie"
           >
             <ul>
-              <li>Santé des gencives</li>
               <li>Méthode Charon</li>
             </ul>
           </b-card>
@@ -44,7 +43,7 @@
           <b-card
             tag="nuxt-link"
             to="/implantologie"
-            img-src="~assets/facettes-card.jpg"
+            img-src="~assets/ss-facettes2.jpg"
             img-alt="Card image"
             img-top
             header="Esthétique"
@@ -80,7 +79,7 @@ export default {
       default: () => [
         {
           title: 'Comment traiter un saignement de gencive ?',
-          link: '/endodontie'
+          link: '/parodontologie'
         },
         {
           title:
@@ -90,7 +89,7 @@ export default {
         {
           title:
             "Ma dent a été dévitalisée, la pose d'une couronne est-elle nécessaire ?",
-          link: '/endodontie'
+          link: '/implantologie'
         },
         {
           title: 'Je suis phobique, comment me faire soigner ?',
@@ -103,7 +102,7 @@ export default {
         },
         {
           title: 'Mes dents sont usées, que faire pour les préserver ?',
-          link: '/endodontie'
+          link: '/implantologie'
         },
         {
           title: 'Mes racines sont apparentes, que faire ?',
