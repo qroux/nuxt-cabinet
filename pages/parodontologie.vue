@@ -63,7 +63,7 @@
 
             <br />
           </b-collapse>
-          <br />
+          
 
           <div class="d-flex justify-content-start align-items-center">
             <h3 v-b-toggle="'collapse-3'" class="dotted">
@@ -91,7 +91,7 @@
             </ul>
             <br />
           </b-collapse>
-          <br />
+        
 
           <div class="d-flex justify-content-start align-items-center">
             <h3 v-b-toggle="'collapse-4'" class="dotted">
@@ -118,10 +118,12 @@
             </p>
             <br />
           </b-collapse>
-          <br />
+          
 
           <div class="d-flex justify-content-start align-items-center">
-            <h3 v-b-toggle="'collapse-5'" class="dotted">Conclusion</h3>
+            <h3 v-b-toggle="'collapse-5'" class="dotted">
+              Conclusion
+              </h3>
           </div>
 
           <b-collapse id="collapse-5">

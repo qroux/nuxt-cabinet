@@ -10,9 +10,7 @@
       <div class="full-article">
         <div class="article-content">
           <div class="header pt-3 pb-3">
-            <h1 class="title">
-              Le traitement des racines, pourquoi et comment ?
-            </h1>
+            <h1 class="title">Le traitement des racines, pourquoi et comment ?</h1>
             <hr />
           </div>
 
@@ -62,10 +60,10 @@
           <br />
 
           <div class="d-flex justify-content-start align-items-center">
-            <h3 v-b-toggle="'collapse-2'" class="dotted">
-              Pourquoi la reprise d’un traitement de racine est-elle nécessaire
-              ?
-            </h3>
+            <h3
+              v-b-toggle="'collapse-2'"
+              class="dotted"
+            >Pourquoi la reprise d’un traitement de racine est-elle nécessaire ?</h3>
           </div>
 
           <b-collapse id="collapse-2">
@@ -76,9 +74,7 @@
               endodontique initial échoue de manière inattendue, incluant :
             </p>
             <ul>
-              <li>
-                Une couronne fracturée avec une fuite du matériau d’obturation
-              </li>
+              <li>Une couronne fracturée avec une fuite du matériau d’obturation</li>
               <li>
                 Des canaux courbés ou étroits qui n’ont pas été traités au cours
                 de la procédure initiale
@@ -89,9 +85,7 @@
               </li>
               <li>Une nouvelle carie sur la dent traitée</li>
               <li>Une nouvelle fracture sur la dent traitée</li>
-              <li>
-                Des structures endodontiques complexes à ramifications multiples
-              </li>
+              <li>Des structures endodontiques complexes à ramifications multiples</li>
             </ul>
             <p>
               <strong>
@@ -103,12 +97,12 @@
             </p>
             <br />
           </b-collapse>
-          <br />
 
           <div class="d-flex justify-content-start align-items-center">
-            <h3 v-b-toggle="'collapse-3'" class="dotted">
-              En quoi consiste la reprise d’un traitement endodontique ?
-            </h3>
+            <h3
+              v-b-toggle="'collapse-3'"
+              class="dotted"
+            >En quoi consiste la reprise d’un traitement endodontique ?</h3>
           </div>
 
           <b-collapse id="collapse-3">
@@ -153,12 +147,9 @@
             </p>
             <br />
           </b-collapse>
-          <br />
 
           <div class="d-flex justify-content-start align-items-center">
-            <h3 v-b-toggle="'collapse-4'" class="dotted">
-              Les limites du retraitement des racines
-            </h3>
+            <h3 v-b-toggle="'collapse-4'" class="dotted">Les limites du retraitement des racines</h3>
           </div>
 
           <b-collapse id="collapse-4">
@@ -192,18 +183,13 @@
               </li>
               <li>Une nouvelle fracture sur la dent traitée</li>
 
-              <li>
-                Des structures endodontiques complexes à ramifications multiples
-              </li>
+              <li>Des structures endodontiques complexes à ramifications multiples</li>
             </ul>
             <br />
           </b-collapse>
-          <br />
 
           <div class="d-flex justify-content-start align-items-center">
-            <h3 v-b-toggle="'collapse-5'" class="dotted">
-              Et en pratique comment faire ?
-            </h3>
+            <h3 v-b-toggle="'collapse-5'" class="dotted">Et en pratique comment faire ?</h3>
           </div>
 
           <b-collapse id="collapse-5">
@@ -228,7 +214,6 @@
             </p>
             <br />
           </b-collapse>
-          <br />
 
           <div class="d-flex justify-content-start align-items-center">
             <h3 v-b-toggle="'collapse-6'" class="dotted">Conclusion</h3>
@@ -265,12 +250,9 @@
             <h3 class="font-weight-bold">Cas cliniques</h3>
             <hr class="mb-4" />
 
-            <div class="">
+            <div class>
               <div @click="toggler = !toggler">
-                <b-container
-                  fluid
-                  class="thumbnails-container justify-content-between"
-                >
+                <b-container fluid class="thumbnails-container justify-content-between">
                   <b-row>
                     <b-col cols="12" md="3">
                       <b-img
@@ -409,7 +391,7 @@ hr {
     content: '\00b7	\00a0	\00a0';
   }
 
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.7);
   &:hover {
     cursor: pointer;
     color: rgba(0, 0, 0, 1);
