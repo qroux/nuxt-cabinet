@@ -18,7 +18,7 @@
 
           <b-container class="my-4">
             <b-row>
-              <!-- <b-col cols="12" md="4" class="photo"></b-col> -->
+
               <b-col cols="12">
                 <p>
                   Le "déchaussement" des dents porte le nom médical de "maladies
@@ -41,7 +41,7 @@
             </h3>
           </div>
 
-          <b-collapse id="collapse-2">
+          <b-collapse id="collapse-2" visible>
             <hr />
             <br />
             <p>
@@ -276,7 +276,7 @@ hr {
     content: '\00b7	\00a0	\00a0';
   }
 
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.7);
   &:hover {
     cursor: pointer;
     color: rgba(0, 0, 0, 1);

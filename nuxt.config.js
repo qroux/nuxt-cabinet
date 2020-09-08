@@ -12,7 +12,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Cabinet du Docteur Gilbert Roux, chirurgien dentiste à Marseille, spécialisé en implantologie et parodontologie' ||
+          'Cabinet du Docteur Gilbert Roux, chirurgien dentiste conventionné à Marseille, spécialisé en Implantologie et Parodontologie. Cabinet Dentaire situé au 9 Rue Francis Davso, 13001 Marseille' ||
           ''
       }
     ],

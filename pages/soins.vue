@@ -7,62 +7,32 @@
       content-class="mt-5"
       fill
     >
-      <b-tab active>
+      <b-tab>
         <template v-slot:title>
           <h3>Catégories</h3>
         </template>
         <b-card-group deck class="pb-5">
           <b-card
+            v-for="card in cards"
+            v-bind:key="card.title"
             tag="nuxt-link"
-            to="/parodontologie"
-            img-src="~assets/ss-paro.webp"
+            :to="card.link"
+            :img-src="card.src"
             img-alt="Card image"
             img-top
-            header="Parodontologie"
+            :header="card.title"
           >
             <ul>
               <li>Méthode Charon</li>
             </ul>
           </b-card>
-
-          <b-card
-            tag="nuxt-link"
-            to="/endodontie"
-            img-src="~assets/ss-endo.webp"
-            img-alt="Card image"
-            img-top
-            header="Endodontie"
-          >
-            <b-card-text>
-              <ul>
-                <li>Traitement des racines</li>
-              </ul>
-            </b-card-text>
-          </b-card>
-
-          <b-card
-            tag="nuxt-link"
-            to="/implantologie"
-            img-src="~assets/ss-facettes2.jpg"
-            img-alt="Card image"
-            img-top
-            header="Esthétique"
-          >
-            <b-card-text>
-              <ul>
-                <li>Implants</li>
-                <li>Facettes</li>
-                <li>Blanchiment des dents</li>
-              </ul>
-            </b-card-text>
-          </b-card>
         </b-card-group>
       </b-tab>
-      <b-tab class="mb-5">
+      <b-tab>
         <template v-slot:title>
           <h3>Questions</h3>
         </template>
-        <div v-for="question in questions" class="py-2">
+        <div v-for="question in questions" v-bind:key="question.title" class="py-2">
           <nuxt-link :to="question.link" class="questions">
             <h5>{{ question.title }}</h5>
           </nuxt-link>
@@ -75,38 +45,34 @@
 <script>
 export default {
   props: {
+    cards: {
+      default: () => [
+        {
+          title: 'Parodontologie',
+          link: '/parodontologie',
+          src: '/images/soins/ss-paro.webp',
+          subtitles: ['Méthode Charon']
+        },
+        {
+          title: 'Endodontie',
+          link: '/endodontie',
+          src: '/images/soins/ss-endo.webp',
+          subtitles: ['Traitement des racines']
+        },
+        {
+          title: 'Esthétique',
+          link: '/implantologie',
+          src: '/images/soins/ss-facettes2.jpg',
+          subtitles: ['Implants']
+        }
+      ]
+    },
     questions: {
       default: () => [
         {
-          title: 'Comment traiter un saignement de gencive ?',
-          link: '/parodontologie'
-        },
-        {
           title:
-            'Je pense avoir une carie, ma dent va-t-elle être dévitalisée ?',
-          link: '/endodontie'
-        },
-        {
-          title:
-            "Ma dent a été dévitalisée, la pose d'une couronne est-elle nécessaire ?",
-          link: '/implantologie'
-        },
-        {
-          title: 'Je suis phobique, comment me faire soigner ?',
-          link: '/endodontie'
-        },
-
-        {
-          title: 'Mon traitement de racine a échoué, ma dent est-elle perdue ?',
-          link: '/endodontie'
-        },
-        {
-          title: 'Mes dents sont usées, que faire pour les préserver ?',
-          link: '/implantologie'
-        },
-        {
-          title: 'Mes racines sont apparentes, que faire ?',
-          link: '/parodontologie'
+            "J'ai peur d'aller chez le dentiste, comment me faire soigner ?",
+          link: '/questions/dentophobie'
         }
       ]
     }

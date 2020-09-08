@@ -16,7 +16,6 @@
 
           <b-container class="my-4">
             <b-row>
-              <!-- <b-col cols="12" md="4" class="photo"></b-col> -->
               <b-col cols="12">
                 <p>
                   Dans de rares cas, il peut arriver qu’un traitement de racine
@@ -66,7 +65,7 @@
             >Pourquoi la reprise d’un traitement de racine est-elle nécessaire ?</h3>
           </div>
 
-          <b-collapse id="collapse-2">
+          <b-collapse id="collapse-2" visible>
             <hr />
             <br />
             <p>
