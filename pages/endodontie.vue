@@ -356,27 +356,16 @@ $animate: all 0.2s ease-in-out;
   flex-direction: column;
 }
 
-#endo1 {
-  justify-content: space-around;
-}
-
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 30px;
   }
   h3 {
     font-size: 25px;
-    // &:before {
-    //   content: '\25b6	\00a0	\00a0	\00a0 \00a0';
-    // }
   }
 
-  #endo1 {
-    flex-direction: column !important;
-    img {
-      margin: 3px 20px;
-      border: 1px solid black;
-    }
+  .dotted {
+    margin-bottom: 25px;
   }
 }
 

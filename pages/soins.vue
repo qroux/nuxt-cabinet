@@ -18,12 +18,12 @@
             tag="nuxt-link"
             :to="card.link"
             :img-src="card.src"
-            img-alt="Card image"
+            :img-alt="card.title"
             img-top
             :header="card.title"
           >
             <ul>
-              <li>Méthode Charon</li>
+              <li v-for="subtitle in card.subtitles" v-bind:key="subtitle">{{subtitle}}</li>
             </ul>
           </b-card>
         </b-card-group>
@@ -50,19 +50,19 @@ export default {
         {
           title: 'Parodontologie',
           link: '/parodontologie',
-          src: '/images/soins/ss-paro.webp',
+          src: '/images/soins/soins-paro.webp',
           subtitles: ['Méthode Charon']
         },
         {
           title: 'Endodontie',
           link: '/endodontie',
-          src: '/images/soins/ss-endo.webp',
+          src: '/images/soins/soins-endo.webp',
           subtitles: ['Traitement des racines']
         },
         {
           title: 'Esthétique',
           link: '/implantologie',
-          src: '/images/soins/ss-facettes2.jpg',
+          src: '/images/soins/soins-esthétique.webp',
           subtitles: ['Implants']
         }
       ]
@@ -125,6 +125,11 @@ h3 {
   color: rgba(0, 0, 0, 0.5);
   transition: 0.5s;
   text-decoration: none;
+
+  h5:before {
+    content: '\00b7	\00a0	\00a0 \00a0	';
+  }
+
   &:hover {
     color: rgba(0, 0, 0, 1);
   }

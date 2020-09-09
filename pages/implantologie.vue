@@ -111,10 +111,6 @@ $animate: all 0.2s ease-in-out;
   flex-direction: column;
 }
 
-#endo1 {
-  justify-content: space-around;
-}
-
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 30px;
@@ -126,12 +122,8 @@ $animate: all 0.2s ease-in-out;
     // }
   }
 
-  #endo1 {
-    flex-direction: column !important;
-    img {
-      margin: 3px 20px;
-      border: 1px solid black;
-    }
+  .dotted {
+    margin-bottom: 25px;
   }
 }
 

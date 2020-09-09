@@ -17,7 +17,7 @@
       <div class="logo-container py-5">
         <nuxt-link to="/implantologie" class="card-link px-5 py-4">
           <div class="logo text-center">
-            <img src="~assets/test.png" alt />
+            <img src="~assets/logo-implant.png" alt />
             <hr />
             <h3>Implantologie</h3>
           </div>
@@ -31,7 +31,7 @@
         </nuxt-link>
         <nuxt-link to="/soins" class="card-link px-5 py-4">
           <div class="logo text-center">
-            <img src="~assets/question-logo.png" alt />
+            <img src="~assets/logo-question.png" alt />
             <hr />
             <h3>Vos questions</h3>
           </div>
@@ -52,12 +52,12 @@
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
-    url('~assets/banner3-resized.jpg');
+    url('/images/homepage/banner3-resized.webp');
   background-size: cover;
   @media (max-width: 740px) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
-      url('~assets/b2r.jpg') !important;
-    // background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+      url('/images/homepage/banner-mobile.webp');
+    background-size: cover;
     background-position: center;
     h1 {
       font-size: 25px;
