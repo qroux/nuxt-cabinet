@@ -12,7 +12,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Cabinet dentaire du Docteur Gilbert Roux, 9 Rue Francis Davso, 13001 Marseille. Spécialisé en Implantologie et Parodontologie' ||
+          'Cabinet dentaire du Docteur Gilbert Roux. Adresse: 9 Rue Francis Davso, 13001 Marseille. Spécialisé en Implantologie et Parodontologie' ||
           ''
       }
     ],

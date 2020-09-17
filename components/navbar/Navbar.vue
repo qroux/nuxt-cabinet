@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" type="light">
+    <b-navbar toggleable="lg" type="dark">
       <nuxt-link to="/">
         <img id="logo" src="~/assets/dental-logo.png" />
       </nuxt-link>
