@@ -58,16 +58,18 @@
           </b-container>
           <br />
 
-          <SubChapter
-            v-for="(chapter, index) of chaptersContent"
-            :key="chapter.title"
-            :title="chapter.title"
-            :num="index"
-          >
-            <template v-slot:content>
-              <span v-html="chapter.content"></span>
-            </template>
-          </SubChapter>
+          <b-container>
+            <SubChapter
+              v-for="(chapter, index) of chaptersContent"
+              :key="chapter.title"
+              :title="chapter.title"
+              :num="index"
+            >
+              <template v-slot:content>
+                <span v-html="chapter.content"></span>
+              </template>
+            </SubChapter>
+          </b-container>
 
           <br />
           <br />
