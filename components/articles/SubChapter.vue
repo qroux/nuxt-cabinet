@@ -34,6 +34,9 @@ $animate: all 0.2s ease-in-out;
 
 .icon-margin {
   margin-left: 2vw;
+  &:focus {
+    outline: none;
+  }
 }
 
 @media screen and (max-width: 768px) {
