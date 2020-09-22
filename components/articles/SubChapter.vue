@@ -9,7 +9,6 @@
 
     <b-collapse :id="`collapse-${num}`">
       <hr />
-      <br />
       <slot name="content"></slot>
       <br />
     </b-collapse>
