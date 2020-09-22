@@ -10,6 +10,7 @@
         <div class="article-content py-5">
           <h2>Description</h2>
           <hr />
+          <b-icon-chevron-compact-down />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum
             fugiat non aut quos numquam nemo sapiente, earum deserunt! Nobis
@@ -37,6 +38,16 @@
     </div>
   </div>
 </template>
+
+<script>
+import { BIconChevronCompactDown } from 'bootstrap-vue'
+
+export default {
+  components: {
+    BIconChevronCompactDown
+  }
+}
+</script>  
 
 <style scoped lang="scss">
 .full-container {

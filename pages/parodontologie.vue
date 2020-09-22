@@ -32,142 +32,17 @@
           </b-container>
           <br />
 
-          <div class="d-flex justify-content-start align-items-center">
-            <h3
-              v-b-toggle="'collapse-2'"
-              class="dotted"
-            >Pourquoi la parodontite se manifeste-t-elle maintenant ?</h3>
-          </div>
+          <SubChapter
+            v-for="(chapter, index) of chaptersContent"
+            :key="chapter.title"
+            :title="chapter.title"
+            :num="index"
+          >
+            <template v-slot:content>
+              <span v-html="chapter.content"></span>
+            </template>
+          </SubChapter>
 
-          <b-collapse id="collapse-2" visible>
-            <hr />
-            <br />
-            <p>
-              Pour déclencher une parondite, il faut deux conditions : L'une
-              sans l'autre ne peut pas détruire les tissus parodontaux.
-              <br />
-              <br />
-              <strong>
-                Dans la plupart des cas, il s'agit d'une infection chronique
-                qui évolue par la succession d'épisodes d'activité
-              </strong>
-              (souvent sans que vous vous en rendiez compte) entrecoupés de
-              périodes de repos.
-              <br />
-              <strong>Le terrain immunitaire et la flore bactérienne de chacun.</strong> Ces parodontites apparaissent chez certains
-              individus et pas chez d'autres : nous ne sommes pas tous
-              susceptibles de souffrir de parondontite / d'un déchaussement.
-            </p>
-
-            <br />
-          </b-collapse>
-
-          <div class="d-flex justify-content-start align-items-center">
-            <h3 v-b-toggle="'collapse-3'" class="dotted">
-              Quelles sont les risques de d'apparition et de récidives d'une
-              parodontite ?
-            </h3>
-          </div>
-
-          <b-collapse id="collapse-3">
-            <hr />
-            <br />
-            <p>Les principaux facteurs de risque sont :</p>
-
-            <ul>
-              <li>
-                Présence
-                <strong>
-                  d'antécédents
-                  familiaux
-                </strong> de parodontite.
-              </li>
-              <li>
-                Présence de
-                <strong>stress</strong> accompagné d'anxiété.
-              </li>
-              <li>
-                Consommation excessive de
-                <strong>tabac</strong>.
-              </li>
-              <li>
-                État médical où le sujet est
-                sensible aux infections
-                <strong>(diabète par exemple)</strong>.
-              </li>
-              <li>
-                <strong>
-                  Résistance à la
-                  carie dentaire
-                </strong>.
-              </li>
-              <li>
-                Historique d'infection gingivale sévère
-                (gingivite).
-              </li>
-            </ul>
-            <br />
-          </b-collapse>
-
-          <div class="d-flex justify-content-start align-items-center">
-            <h3
-              v-b-toggle="'collapse-4'"
-              class="dotted"
-            >Comment prévenir une parodontite / un déchaussement ?</h3>
-          </div>
-
-          <b-collapse id="collapse-4">
-            <hr />
-            <br />
-            <p>
-              Il existe aujourd’hui des
-              <strong>
-                moyens modernes de prévenir efficacement
-                le déchaussement
-              </strong> dont notre cabinet peut vous informer utilement.
-              De plus le Dr Roux, Parodontiste est à même,
-              <strong>
-                après un entretien et
-                des examens précis, de déterminer la nature exacte du risque de
-                votre déchaussement
-              </strong> car il existe des sujets plus à risque que
-              d’autres de souffrir de déchaussement ou parodontite.
-            </p>
-            <p>
-              En terme de prévention, après évaluation de votre degré de risque
-              de voir vos dents se déchausser,
-              <strong>
-                un programme simple, peu coûteux
-                et adapté à votre risque, permet de diminuer sensiblement la
-                probabilité de déchaussement
-              </strong>
-            </p>
-            <br />
-          </b-collapse>
-
-          <div class="d-flex justify-content-start align-items-center">
-            <h3 v-b-toggle="'collapse-5'" class="dotted">Conclusion</h3>
-          </div>
-
-          <b-collapse id="collapse-5">
-            <hr />
-            <br />
-            <p>
-              Prévenir, c'est
-              <strong>
-                évaluer l'intensité du risque et diminuer ce
-                risque grâce à un traitement préventif.
-              </strong>
-            </p>
-            <p>
-              Au total,
-              <strong>il est bien plus agréable et moins coûteux de garder ses dents</strong> que
-              de les perdre à condition d’avoir les bons réflexes et de
-              bénéficier d’outils thérapeutiques opérants.
-            </p>
-
-            <br />
-          </b-collapse>
           <br />
           <br />
 
@@ -208,12 +83,124 @@
 </template>
 
 <script>
+import SubChapter from '../components/articles/SubChapter'
 import FsLightbox from 'fslightbox-vue'
+import { BIconChevronDown, BIconChevronCompactDown } from 'bootstrap-vue'
+
 export default {
-  components: { FsLightbox },
+  components: {
+    SubChapter,
+    FsLightbox,
+    BIconChevronDown,
+    BIconChevronCompactDown
+  },
   data() {
     return {
       toggler: false,
+      chaptersContent: [
+        {
+          title: 'Pourquoi la parodontite se manifeste-t-elle maintenant ?',
+          content: `            <p>
+              Pour déclencher une parondite, il faut deux conditions : L'une
+              sans l'autre ne peut pas détruire les tissus parodontaux.
+              <br />
+              <br />
+              <strong>
+                Dans la plupart des cas, il s'agit d'une infection chronique qui
+                évolue par la succession d'épisodes d'activité
+              </strong>
+              (souvent sans que vous vous en rendiez compte) entrecoupés de
+              périodes de repos.
+              <br />
+              <strong>
+                Le terrain immunitaire et la flore bactérienne de chacun.
+              </strong>{' '}
+              Ces parodontites apparaissent chez certains individus et pas chez
+              d'autres : nous ne sommes pas tous susceptibles de souffrir de
+              parondontite / d'un déchaussement.
+            </p>`
+        },
+        {
+          title:
+            "Quelles sont les risques de d'apparition et de récidives d'une parodontite ?",
+          content: `<p>Les principaux facteurs de risque sont :</p>
+
+            <ul>
+              <li>
+                Présence
+                <strong>
+                  d'antécédents
+                  familiaux
+                </strong> de parodontite.
+              </li>
+              <li>
+                Présence de
+                <strong>stress</strong> accompagné d'anxiété.
+              </li>
+              <li>
+                Consommation excessive de
+                <strong>tabac</strong>.
+              </li>
+              <li>
+                État médical où le sujet est
+                sensible aux infections
+                <strong>(diabète par exemple)</strong>.
+              </li>
+              <li>
+                <strong>
+                  Résistance à la
+                  carie dentaire
+                </strong>.
+              </li>
+              <li>
+                Historique d'infection gingivale sévère
+                (gingivite).
+              </li>
+            </ul>`
+        },
+        {
+          title: 'Comment prévenir une parodontite / un déchaussement ?',
+          content: `            <p>
+              Il existe aujourd’hui des
+              <strong>
+                moyens modernes de prévenir efficacement
+                le déchaussement
+              </strong> dont notre cabinet peut vous informer utilement.
+              De plus le Dr Roux, Parodontiste est à même,
+              <strong>
+                après un entretien et
+                des examens précis, de déterminer la nature exacte du risque de
+                votre déchaussement
+              </strong> car il existe des sujets plus à risque que
+              d’autres de souffrir de déchaussement ou parodontite.
+            </p>
+            <p>
+              En terme de prévention, après évaluation de votre degré de risque
+              de voir vos dents se déchausser,
+              <strong>
+                un programme simple, peu coûteux
+                et adapté à votre risque, permet de diminuer sensiblement la
+                probabilité de déchaussement
+              </strong>
+            </p>`
+        },
+        {
+          title: 'Conclusion',
+          content: `<p>
+              Prévenir, c'est
+              <strong>
+                évaluer l'intensité du risque et diminuer ce
+                risque grâce à un traitement préventif.
+              </strong>
+            </p>
+            <p>
+              Au total,
+              <strong>il est bien plus agréable et moins coûteux de garder ses dents</strong> que
+              de les perdre à condition d’avoir les bons réflexes et de
+              bénéficier d’outils thérapeutiques opérants.
+            </p>`
+        }
+      ],
       items: [
         {
           text: 'Accueil',
@@ -257,6 +244,9 @@ $animate: all 0.2s ease-in-out;
   display: flex;
   flex-direction: column;
 }
+.icon-margin {
+  margin-left: 2vw;
+}
 
 @media screen and (max-width: 768px) {
   h1 {
@@ -266,8 +256,11 @@ $animate: all 0.2s ease-in-out;
     font-size: 25px;
   }
 
-  .dotted {
-    margin-bottom: 25px;
+  // .dotted {
+  //   margin-bottom: 25px;
+  // }
+  .icon-margin {
+    margin-left: 5vw;
   }
 }
 
@@ -276,17 +269,17 @@ hr {
   margin: 0;
 }
 
-.dotted {
-  &:before {
-    content: '\00b7	\00a0	\00a0';
-  }
+// .dotted {
+//   &:before {
+//     content: '\00b7	\00a0	\00a0';
+//   }
 
-  color: rgba(0, 0, 0, 0.7);
-  &:hover {
-    cursor: pointer;
-    color: rgba(0, 0, 0, 1);
-  }
-}
+//   color: rgba(0, 0, 0, 0.7);
+//   &:hover {
+//     cursor: pointer;
+//     color: rgba(0, 0, 0, 1);
+//   }
+// }
 .title {
   color: rgba(0, 0, 0, 0.7);
   font-weight: bold;

@@ -49,7 +49,14 @@ export default {
    */
   modules: [
     // Doc: https://bootstrap-vue.js.org
-    'bootstrap-vue/nuxt',
+    [
+      'bootstrap-vue/nuxt',
+      {
+        bootstrapVue: {
+          icons: true // Install the IconsPlugin (in addition to BootStrapVue plugin
+        }
+      }
+    ],
     [
       '@nuxtjs/google-analytics',
       {
