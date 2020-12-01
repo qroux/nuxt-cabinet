@@ -9,26 +9,31 @@
       </div>
     </div>
     <div id="logos" class="container">
+      <!-- <div class="presentation-container">
+        <h5>Bienvenue au cabinet du docteur Gilbert Roux</h5>
+        <br />
+        <p>Le cabinet vous accueille</p>
+      </div>-->
       <div class="logo-container py-5">
         <nuxt-link to="/implantologie" class="card-link px-5 py-4">
           <div class="logo text-center">
-            <img src="~assets/test.png" alt="" />
+            <img src="~assets/logo-implant.png" alt />
             <hr />
             <h3>Implantologie</h3>
           </div>
         </nuxt-link>
         <nuxt-link to="/parodontologie" class="card-link px-5 py-4">
           <div class="logo text-center">
-            <img src="~assets/logo-paro.png" alt="" />
+            <img src="~assets/logo-paro.png" alt />
             <hr />
             <h3>Parodontologie</h3>
           </div>
         </nuxt-link>
-        <nuxt-link to="/prevention" class="card-link px-5 py-4">
+        <nuxt-link to="/soins" class="card-link px-5 py-4">
           <div class="logo text-center">
-            <img src="~assets/logo-prevention.png" alt="" />
+            <img src="~assets/logo-question.png" alt />
             <hr />
-            <h3>Prévention</h3>
+            <h3>Vos questions</h3>
           </div>
         </nuxt-link>
       </div>
@@ -46,13 +51,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url('~assets/banner3-resized.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+    url('/images/homepage/banner3-resized.webp');
   background-size: cover;
   @media (max-width: 740px) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url('~assets/b2r.jpg') !important;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)),
+      url('/images/homepage/banner-mobile.webp');
     background-size: cover;
+    background-position: center;
     h1 {
       font-size: 25px;
     }
@@ -64,6 +70,10 @@
 #logos {
   font-family: 'Montserrat', sans-serif;
 }
+
+.presentation-container {
+}
+
 .logo-container {
   display: flex;
   justify-content: space-around;

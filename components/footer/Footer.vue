@@ -1,9 +1,15 @@
 <template>
   <div class="footer">
     <br />
-    <h5>04 91 33 32 05</h5>
-    <h5>roux.gilbert0638@orange.fr</h5>
-    <h5>9 rue Francis Davso,</h5>
+    <h5><font-awesome-icon :icon="['fas', 'phone']" /> 04 91 33 32 05</h5>
+    <h5>
+      <font-awesome-icon :icon="['far', 'paper-plane']" />
+      roux.gilbert0638@orange.fr
+    </h5>
+    <h5>
+      <font-awesome-icon :icon="['fas', 'map-marker-alt']" /> 9 rue Francis
+      Davso,
+    </h5>
     <h5>13001 Marseille</h5>
     <br />
   </div>
