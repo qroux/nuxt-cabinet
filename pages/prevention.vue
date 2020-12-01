@@ -2,7 +2,7 @@
   <div class="full-container">
     <div class="container-fluid">
       <div class="article-bg">
-        <h1>Parodontologie</h1>
+        <h1>Prévention</h1>
       </div>
     </div>
     <div class="container">
@@ -40,7 +40,7 @@
 
 <style scoped lang="scss">
 .full-container {
-  min-height: 72vh;
+  min-height: 73vh;
 }
 .container-fluid {
   padding: 0;

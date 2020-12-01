@@ -40,7 +40,7 @@
 
 <style scoped lang="scss">
 .full-container {
-  min-height: 72vh;
+  min-height: 73vh;
 }
 .container-fluid {
   padding: 0;
